@@ -1,0 +1,5 @@
+1. In the product table 'Id' is a primary key and there is multiple fields name, desc,SKU,price etc. Relationship between these two table is product_category contain the forein key from product table's primary key.  And describe category id to the product_category table. like name, desc,created_at, modified_at,deleted_at etc.
+
+
+2. There is one- to - one , many - to - one , mapping in the table. In product table there is a valid category which we can use by the forein key and assign the that perticular feild.
+
